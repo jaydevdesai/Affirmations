@@ -14,6 +14,6 @@ class MainActivity : AppCompatActivity() {
         val recyclerview = findViewById<RecyclerView>(R.id.recycler_view)
         recyclerview.adapter = ItemAdapter(this, myDataset)
         recyclerview.setHasFixedSize(true)
-        
+
     }
 }
